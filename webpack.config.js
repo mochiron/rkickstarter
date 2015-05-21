@@ -8,7 +8,7 @@ module.exports = {
     //and we have the development server for webpack and react-hot-loader
     entry: [
       'webpack/hot/only-dev-server',
-      "./app/app.js"
+      "./app/index.js"
     ],
     //The output section is where the bundled files should go when we build our app.
     //In this case, the files will be in /build/bundle.js

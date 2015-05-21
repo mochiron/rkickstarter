@@ -2,7 +2,7 @@
   "name": "ReactKickstarter",
   "version": "1.0.0",
   "description": "React Kickstarter for projects ==============================",
-  "main": "app/app.js",
+  "main": "app/index.js",
   "scripts": {
     "start": "webpack-dev-server --hot --progress --colors",
     "build": "webpack --progress --colors"
