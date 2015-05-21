@@ -36,6 +36,10 @@ module.exports = {
               loader: 'babel-loader'
             },
             {
+              test: /\.css$/,
+              loader:'style!css',
+            },
+            {
               test: /\.sass$/,
               loaders: [
                 'style-loader',
@@ -45,7 +49,7 @@ module.exports = {
               ],
             },
             {
-              test: /\.(jpg|png|svg|gif|eot|ttf|woff)$/,
+              test: /\.(jpg|png|svg|gif|eot|ttf|woff|woff2)$/,
               loader: "url-loader",
               query: {
                 name: "[path][name].[ext]",

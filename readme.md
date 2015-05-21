@@ -18,3 +18,8 @@
 
 ### To run the dev environment using Webpack:
 * npm start
+
+## Sources
+* Project folder structure is based on ryanflorence's : https://gist.github.com/ryanflorence/daafb1e3cb8ad740b346
+
+https://github.com/bensmithett/cssconfracer/tree/master/src

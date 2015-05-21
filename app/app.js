@@ -8,6 +8,7 @@ import { Alert } from 'react-bootstrap';
 import { Navbar, CollapsibleNav, Nav, NavItem, DropdownButton, MenuItem } from 'react-bootstrap';
 import { NavItemLink } from 'react-router-bootstrap'
 
+import './css/bootstrap'
 import './css/app'
 //components
 //top navigation
