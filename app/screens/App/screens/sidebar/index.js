@@ -6,7 +6,7 @@ let Home = React.createClass({
     return (
       <div>
         <Alert bsStyle="warning">
-          <strong>Holy guacamole!</strong> HOME PAGE YO!
+          <strong>Holy guacamole!</strong> SIDEBAR PAGE YO!
         </Alert>
       </div>
     );
